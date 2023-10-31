@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Portfolio",
+    "description": " A front-end web application designed to showcase a comprehensive portfolio of web development skills.",
+    "skills": [
+      "React",
+      "ThreeJS",
+      "Vite",
+      "Express",
+      "Node",
+      "Tailwind",
+      "EmailJS"
+    ],
+    "demo": "https://blank.com",
+    "source": "https://github.com/Ozair-Hassan/instabank_prod"
+  },
+  {
+    "title": "ArticleDigest",
+    "description": "Web application harnessing the power of the GPT-4 API for generating article summaries and Rapid API for translations.",
+    "skills": ["React", "Redux", "Vite", "Tailwind", "Express", "Node"],
+    "demo": "https://article-digest.onrender.com",
+    "source": "https://github.com/Ozair-Hassan/article-digest--prod"
+  },
+  {
+    "title": "CRYPTO WATCHER",
+    "description": "Web application that utilizes the CoinGecko cryptocurrency API",
+    "skills": ["React", "Express", "Node", "Material UI", "Tailwind"],
+    "demo": "https://crypto-watcher-kxj8.onrender.com",
+    "source": "https://github.com/Ozair-Hassan/react-crypto-watcher-app"
+  },
+  {
+    "title": "INSTABANK",
+    "description": "Front-end web application for a dummy credit card company",
+    "skills": [
+      "React",
+      "ThreeJS",
+      "Vite",
+      "Express",
+      "Node",
+      "Tailwind",
+      "EmailJS"
+    ],
+    "demo": "https://instabank.onrender.com",
+    "source": "https://github.com/Ozair-Hassan/instabank_prod"
+  }
+]

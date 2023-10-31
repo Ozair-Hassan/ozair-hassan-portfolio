@@ -1,0 +1,123 @@
+@import '../../vars.css';
+
+.divider1 {
+  width: 100vw;
+  height: 64px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: var(--color-secondbg);
+  clip-path: polygon(0 0, 0 100%, 100% 100%);
+}
+
+.container {
+  color: var(--color-text);
+  overflow: hidden;
+  background-color: var(--color-bg);
+  position: relative;
+}
+
+.container2 {
+  position: relative;
+  background-color: var(--color-secondbg);
+  border-radius: 15px;
+  padding: 73px;
+  z-index: 1;
+  margin: 10%;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 49px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: none;
+  background: linear-gradient(96deg, #37a528 0%, #115201 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.title2 {
+  font-size: 49px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: none;
+  background: linear-gradient(96deg, #37a528 0%, #115201 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  float: right;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.aboutImage {
+  width: 35%;
+  padding-right: 2%;
+}
+
+.aboutItems {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.aboutItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  list-style: none;
+  padding: 25px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+.aboutItem:hover {
+  background-size: 100% 100%;
+}
+
+.aboutItem h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.aboutItem p {
+  font-size: 25px;
+}
+.aboutItem img {
+  margin-right: 3%;
+}
+@media screen and (max-width: 830px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .aboutImage {
+    display: none;
+  }
+  .aboutItems {
+    margin-top: 29px;
+  }
+  .aboutItem {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

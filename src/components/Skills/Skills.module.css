@@ -1,0 +1,153 @@
+@import '../../vars.css';
+
+.divider1 {
+  width: 100vw;
+  height: 64px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: var(--color-bg);
+  clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
+}
+
+.container {
+  color: var(--color-text);
+  padding-top: 79px;
+  padding-left: 10%;
+  padding-right: 10%;
+  overflow: hidden;
+  background-color: var(--color-secondbg);
+  position: relative;
+}
+
+.title {
+  font-size: 49px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: none;
+  background: linear-gradient(96deg, #37a528 0%, #115201 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.title2 {
+  font-size: 49px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: none;
+  background: linear-gradient(96deg, #37a528 0%, #115201 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  float: right;
+  margin-bottom: 64px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.skills {
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 37px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+}
+
+.skillImageContainer img {
+  width: 75px;
+}
+
+.skill p {
+  font-size: 25px;
+  font-family: var(--font-robot);
+  font-weight: 500;
+}
+
+.history {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.historyItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 17px;
+  background: #19376d;
+  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.historyItem img {
+  width: 50px;
+}
+
+.historyItemDetails {
+  font-family: var(--font-robot);
+}
+
+.historyItemDetails h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.historyItemDetails p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.historyItemDetails ul {
+  margin-top: 6px;
+  list-style-position: inside;
+  font-size: 25px;
+  list-style-type: disc;
+  margin-left: 17px;
+}
+
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+
+  .skills {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .history {
+    width: 100%;
+    gap: 9px;
+  }
+}

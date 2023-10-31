@@ -1,0 +1,72 @@
+@import '../../vars.css';
+
+.container {
+  padding-top: 76px;
+  color: var(--color-text);
+  padding-left: 10%;
+  padding-right: 10%;
+  overflow: hidden;
+  position: relative;
+  background-color: var(--color-bg);
+}
+
+.divider1 {
+  width: 100vw;
+  height: 64px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: var(--color-secondbg);
+  clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
+}
+
+.divider2 {
+  width: 100vw;
+  height: 64px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: var(--color-secondbg);
+  clip-path: polygon(0 0, 0 100%, 100% 100%);
+}
+
+.title {
+  font-size: 49px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: none;
+  background: linear-gradient(96deg, #37a528 0%, #115201 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 64px;
+}
+
+.title2 {
+  font-size: 49px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: none;
+  background: linear-gradient(96deg, #37a528 0%, #115201 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  float: right;
+  margin-bottom: 64px;
+}
+
+.projects {
+  margin-top: 37px;
+  margin-bottom: 37px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: start;
+  gap: 100%;
+  width: 100vw;
+}
