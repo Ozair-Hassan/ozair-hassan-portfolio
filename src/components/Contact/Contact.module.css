@@ -27,6 +27,10 @@
   padding: 73px;
   padding-bottom: 35px;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
 }
 
@@ -59,11 +63,6 @@
   color: var(--color-text);
 }
 
-.inputs:focus {
-  border-bottom: 1px solid #4f4f4f;
-  outline: none;
-}
-
 .message {
   width: 750px;
   max-width: 100%;
@@ -85,6 +84,7 @@
 }
 
 .submit {
+  margin-top: 50px;
   padding: 12px 26px;
   color: var(--color-text);
   font-size: 24px;
@@ -99,7 +99,7 @@
   border: 5px solid transparent;
   background: linear-gradient(#151515, #151515) padding-box,
     linear-gradient(96deg, #37a528 0%, #115201 100%) border-box;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .submit:hover {
@@ -108,17 +108,32 @@
   padding: 17px 26px;
 }
 
+.notification {
+  position: absolute;
+  bottom: 0px; /* Adjust this value to position the notification */
+  left: 50%;
+  transform: translateX(-50%); /* Center the notification horizontally */
+  background-color: gray; /* Background color of the notification */
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 100; /* Ensure it's above other elements */
+  color: rgb(0, 255, 0);
+  font-size: 24px;
+}
+
 .links {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   list-style: none;
   gap: 26px;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
   margin-top: 30px;
 }
 
 .link {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 25px;
@@ -132,6 +147,28 @@
   letter-spacing: 1.5px;
 }
 
+.link span {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+.successMessage {
+  position: absolute;
+  bottom: 10px; /* Adjust this value to position the notification */
+  left: 50%;
+  transform: translateX(-50%); /* Center the notification horizontally */
+  background-color: gray; /* Background color of the notification */
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 100; /* Ensure it's above other elements */
+  color: rgb(0, 255, 0);
+  font-size: 24px;
+}
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
