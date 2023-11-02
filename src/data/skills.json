@@ -8,6 +8,10 @@
     "imageSrc": "skills/css.png"
   },
   {
+    "title": "Tailwind",
+    "imageSrc": "skills/tail.png"
+  },
+  {
     "title": "React",
     "imageSrc": "skills/react.png"
   },
@@ -15,9 +19,33 @@
     "title": "Node",
     "imageSrc": "skills/node.png"
   },
-
+  {
+    "title": "Redux",
+    "imageSrc": "skills/redux.png"
+  },
+  {
+    "title": "Threejs",
+    "imageSrc": "skills/threejs.png"
+  },
+  {
+    "title": "Vite.js",
+    "imageSrc": "skills/vite.png"
+  },
+  {
+    "title": "Material UI",
+    "imageSrc": "skills/matui.png"
+  },
   {
     "title": "Figma",
     "imageSrc": "skills/figma.png"
+  },
+  {
+    "title": "Firebase",
+    "imageSrc": "skills/firebase.png"
+  },
+
+  {
+    "title": "Emailjs",
+    "imageSrc": "skills/email.png"
   }
 ]
