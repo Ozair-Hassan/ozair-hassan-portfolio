@@ -1,51 +1,62 @@
 [
   {
     "title": "HTML",
-    "imageSrc": "skills/html.png"
+    "imageSrc": "skills/html.png",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
   },
   {
     "title": "CSS",
-    "imageSrc": "skills/css.png"
+    "imageSrc": "skills/css.png",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
   },
   {
     "title": "Tailwind",
-    "imageSrc": "skills/tail.png"
+    "imageSrc": "skills/tail.png",
+    "url": "https://tailwindcss.com/"
   },
   {
     "title": "React",
-    "imageSrc": "skills/react.png"
+    "imageSrc": "skills/react.png",
+    "url": "https://reactjs.org/"
   },
   {
     "title": "Node",
-    "imageSrc": "skills/node.png"
+    "imageSrc": "skills/node.png",
+    "url": "https://nodejs.org/"
   },
   {
     "title": "Redux",
-    "imageSrc": "skills/redux.png"
+    "imageSrc": "skills/redux.png",
+    "url": "https://redux.js.org/"
   },
   {
     "title": "Threejs",
-    "imageSrc": "skills/threejs.png"
+    "imageSrc": "skills/threejs.png",
+    "url": "https://threejs.org/"
   },
   {
     "title": "Vite.js",
-    "imageSrc": "skills/vite.png"
+    "imageSrc": "skills/vite.png",
+    "url": "https://vitejs.dev/"
   },
   {
     "title": "Material UI",
-    "imageSrc": "skills/matui.png"
+    "imageSrc": "skills/matui.png",
+    "url": "https://mui.com/"
   },
   {
     "title": "Figma",
-    "imageSrc": "skills/figma.png"
+    "imageSrc": "skills/figma.png",
+    "url": "https://www.figma.com/"
   },
   {
     "title": "Firebase",
-    "imageSrc": "skills/firebase.png"
+    "imageSrc": "skills/firebase.png",
+    "url": "https://firebase.google.com/"
   },
-
   {
     "title": "Emailjs",
-    "imageSrc": "skills/email.png"
+    "imageSrc": "skills/email.png",
+    "url": "https://www.emailjs.com/"
   }
 ]

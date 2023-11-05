@@ -13,7 +13,8 @@ const Hero = () => {
         <div className={styles.buttons}>
           {' '}
           <a
-            href="mailto:ozair.hassan123@gmail.com"
+            href="/Resume%20Ozair%20Hassan%20V2.pdf"
+            download="Ozair Hassan.pdf"
             className={styles.download}
           >
             Download CV

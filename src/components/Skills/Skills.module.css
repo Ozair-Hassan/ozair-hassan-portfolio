@@ -60,6 +60,20 @@
   display: flex;
   flex-wrap: wrap;
   gap: 37px;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.hyper {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: var(--font-robot);
+  font-weight: 500;
+  color: inherit;
+}
+
+.hyper:hover {
+  color: rgb(0, 255, 0);
 }
 
 .skill {
@@ -67,6 +81,10 @@
   flex-direction: column;
   align-items: center;
   gap: 11px;
+}
+
+.skills :hover {
+  animation: wobble 0.5s ease-in-out infinite;
 }
 
 .skillImageContainer {
@@ -149,5 +167,15 @@
   .history {
     width: 100%;
     gap: 9px;
+  }
+}
+
+@keyframes wobble {
+  0%,
+  100% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
   }
 }

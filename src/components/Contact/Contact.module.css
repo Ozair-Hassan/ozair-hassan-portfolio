@@ -100,12 +100,14 @@
   background: linear-gradient(#151515, #151515) padding-box,
     linear-gradient(96deg, #37a528 0%, #115201 100%) border-box;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 
 .submit:hover {
   background: linear-gradient(96deg, #37a528 0%, #115201 100%);
   border: 0px;
   padding: 17px 26px;
+  cursor: pointer;
 }
 
 .notification {
