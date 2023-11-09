@@ -10,7 +10,6 @@
   max-width: 80vw;
   min-height: 500px;
   margin-bottom: 50px;
-  overflow: hidden;
 }
 .frame {
   width: 100%;
@@ -82,4 +81,10 @@
   background: linear-gradient(96deg, #37a528 0%, #115201 100%);
   border: 0px;
   padding: 13px 26px;
+}
+
+@media screen and (max-width: 830px) {
+  .link {
+    width: 150px;
+  }
 }

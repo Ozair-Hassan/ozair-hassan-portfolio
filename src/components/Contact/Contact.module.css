@@ -93,14 +93,13 @@
   text-align: center;
   text-decoration: none;
   font-weight: 600;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 5px #115201;
   flex-shrink: 0;
   border-radius: 10px;
-  border: 5px solid transparent;
+  margin-bottom: 30px;
+  border: 5px solid #115201;
   background: linear-gradient(#151515, #151515) padding-box,
     linear-gradient(96deg, #37a528 0%, #115201 100%) border-box;
-  margin-bottom: 30px;
-  cursor: pointer;
 }
 
 .submit:hover {
@@ -149,6 +148,13 @@
   letter-spacing: 1.5px;
 }
 
+.link a:hover {
+  color: green;
+}
+.link span:hover {
+  color: green;
+}
+
 .link span {
   color: var(--color-text);
   text-decoration: none;
@@ -177,10 +183,11 @@
     gap: 23px;
   }
 
-  .text {
+  .text h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 70px;
   }
 
   .links {
@@ -190,12 +197,16 @@
   .row1 {
     display: flex;
     flex-direction: column;
-    gap: 0px;
+    gap: 20px;
   }
 
   .row2 {
     display: flex;
     flex-direction: column;
-    gap: 0px;
+    gap: 20px;
+  }
+  .message {
+    width: 360px;
+    max-width: 100%;
   }
 }

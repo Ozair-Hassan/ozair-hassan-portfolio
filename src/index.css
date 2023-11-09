@@ -1,3 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,4 +11,25 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+/* Styles for the scrollbar track */
+::-webkit-scrollbar {
+  width: 8px; /* or less, depending on how thin you want it */
+  background-color: #0d130d; /* or any color */
+}
+
+/* Styles for the scrollbar thumb (the part that you drag) */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.274); /* semi-transparent black */
+  border-radius: 4px; /* optional: to have rounded corners */
+}
+
+/* Styles for the scrollbar thumb when it's hovered or active */
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.274); /* darker on hover */
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: rgba(255, 255, 255, 0.274); /* even darker when active */
 }

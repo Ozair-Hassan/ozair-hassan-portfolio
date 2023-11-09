@@ -1,0 +1,22 @@
+/* styles.css */
+@import '../../vars.css';
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  right: -2.5%;
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .container {
+    right: 0; /* Adjust the value as needed for tablet devices */
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .container {
+    right: 0; /* Adjust the value as needed for mobile devices */
+  }
+}

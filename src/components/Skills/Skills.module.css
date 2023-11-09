@@ -84,7 +84,7 @@
 }
 
 .skills :hover {
-  animation: wobble 0.5s ease-in-out infinite;
+  animation: wobble 1s ease-in-out infinite;
 }
 
 .skillImageContainer {

@@ -12,7 +12,7 @@ const About = () => {
         <h2 className={styles.title}> {'<about>'} </h2>
         <div className={styles.content}>
           <img
-            src={getImageUrl('placeHolder.png')}
+            src={getImageUrl('aboutImage.png')}
             alt="sitting"
             className={styles.aboutImage}
           />
@@ -25,8 +25,14 @@ const About = () => {
               <div className={styles.aboutItemText}>
                 <h3>Frontend Developer</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-                  voluptates quod alias ea ratione tenetur eligendi
+                  {/* Proficient in front-end development with practical expertise
+                  in technologies such as JavaScript (ES6+), React.js, Redux,
+                  Tailwind CSS, Material-UI, and Three.js. */}
+                  Familiar with the basics of front-end development, including
+                  foundational knowledge of JavaScript (ES6+), React.js, and CSS
+                  frameworks like Tailwind CSS. Beginning to apply these tools
+                  in creating simple yet effective user interfaces, with a keen
+                  interest in learning and applying modern web technologies.
                 </p>
               </div>
             </li>
@@ -38,8 +44,13 @@ const About = () => {
               <div className={styles.aboutItemText}>
                 <h3>Backend Developer</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nostrum voluptates magni, debitis provident beatae est
+                  {/* Skilled in back-end development with experience in Node.js
+                  (Express.js), PHP, and Firebase, including integrating with
+                  APIs for dynamic web applications. */}
+                  Introduced to back-end development with an understanding of
+                  Node.js (Express.js) and PHP. Gaining experience in
+                  integrating APIs and managing backend processes, with a focus
+                  on developing skills for building reliable web services.
                 </p>
               </div>
             </li>
@@ -51,8 +62,15 @@ const About = () => {
               <div className={styles.aboutItemText}>
                 <h3>UI Designer</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptas sunt reprehenderit dolores aut quas sequi
+                  {/* Adept in employing design tools and principles to craft
+                  engaging user interfaces and experiences. Projects showcase
+                  the use of Three.js for dynamic 3D elements, and a strong
+                  understanding of UI/UX design */}
+                  Engaging with design tools to understand the essentials of web
+                  design. Experimenting with Three.js for interactive elements
+                  and exploring the principles of UI/UX to contribute to
+                  user-friendly web application designs, while continuously
+                  seeking to enhance design skills.
                 </p>
               </div>
             </li>

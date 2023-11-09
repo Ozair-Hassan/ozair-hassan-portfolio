@@ -1,6 +1,8 @@
 import React from 'react'
 import { getImageUrl } from '../../utils'
 import styles from './Hero.module.css'
+import { motion } from 'framer-motion'
+import { ComputersCanvas } from '../Canvas'
 
 const Hero = () => {
   return (
@@ -27,12 +29,24 @@ const Hero = () => {
           </a>
         </div>
       </div>
-
-      <img
-        src={getImageUrl('placeHolder.png')}
-        alt="Hero image of me"
-        className={styles.heroImg}
-      />
+      <ComputersCanvas />
+      <div className={styles.scrollPrompt}>
+        <a href="#about">
+          <div className={styles.scroll}>
+            <motion.div
+              animate={{
+                y: [0, 24, 0],
+              }}
+              transition={{
+                duration: 2,
+                repeat: Infinity,
+                repeatType: 'loop',
+              }}
+              className={styles.scrollDot}
+            />
+          </div>
+        </a>
+      </div>
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>
