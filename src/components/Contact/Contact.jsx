@@ -139,7 +139,7 @@ const Contact = () => {
           />
           <a
             target="_blank"
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/ozair-hassan-8273811a4/"
           >
             LinkedIn
           </a>
